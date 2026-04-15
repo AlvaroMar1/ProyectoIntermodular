@@ -18,7 +18,18 @@ public class Menu {
         }
 
         if(num == 1){
-            System.out.println("1 - Buscar alumno");
+            System.out.println("1 - Buscar alumno por nombre y apellidos");
+            System.out.println("2 - Buscar alumno por DNI");
+
+            System.out.println("si encuentra el alumno");
+            System.out.println("Que ejemplares va a recibir:");
+
+            System.out.println("si estan disponibles y son del mismo curso que el alumno");
+            System.out.println("Préstamo registrado");
+        }
+
+        if(num == 2){
+            System.out.println("Estado del libro devuelto");
         }
     }
 }
